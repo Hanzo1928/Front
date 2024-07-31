@@ -1,0 +1,119 @@
+.header {
+    margin-block-start: 10px;
+}
+
+.header__title {
+    padding: 5px 45px 35px;
+    font-weight: 400;
+    font-size: 105px;
+    line-height: 108px;
+}
+
+.header__logo {
+    inline-size: 500px;
+    block-size: 500px;
+    margin-inline-start: 150px;
+    margin-block-start: 70px;
+}
+
+.header__container-wrapper {
+    text-wrap: nowrap;
+}
+
+.header__container {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.header__container-title {
+    margin-block-start: -40px;
+}
+
+.header__container-date {
+    margin-block-start: -40px;
+    margin-inline-start: 60px;
+}
+
+.header__container-button {
+    margin-inline-start: 180px;
+}
+
+.header__container-logo {
+    margin-inline-start: 45px;
+    margin-block-start: 130px;
+}
+
+.section {
+    margin-block-start: 100px;
+    margin-block-end: 200px;
+}
+
+.section__title {
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 88px;
+}
+
+.section__title_accent {
+    color: var(--accent-color);
+}
+
+.section__content {
+    margin-inline-start: 250px;
+    margin-block-start: 80px;
+}
+
+.section__content-description {
+    max-inline-size: 600px;
+    margin-block-end: 60px;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.section__content-divider {
+    max-inline-size: 900px;
+}
+
+.speakers {
+    display: flex;
+    gap: 130px;
+    flex-wrap: wrap;
+}
+
+.opportunities {
+    max-inline-size: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.opportunities__item {
+    padding: 65px;
+    border: 2px dashed #555555;
+}
+
+.opportunities .opportunities__item:nth-child(2n) {
+    border-inline-start: none;
+}
+
+.opportunities .opportunities__item:nth-child(-n + 2) {
+    border-block-end: none;
+}
+
+.opportunities__item-description {
+    margin-block-start: 25px;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.section__content-address {
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.section__content-map {
+    margin-block-start: 40px;
+}
+
+.section__content-button {
+    margin-block-start: 40px;
+}

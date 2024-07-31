@@ -1,0 +1,6 @@
+.main {
+    max-inline-size: var(--max-width);
+    margin: auto;
+    margin-block-end: 200px;
+    padding-inline: var(--padding-inline);
+}

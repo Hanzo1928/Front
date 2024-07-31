@@ -1,0 +1,43 @@
+.button {
+    display: block;
+    inline-size: 350px;
+    block-size: 100px;
+    background: linear-gradient(
+        93.76deg,
+        #178cf2 5.81%,
+        #7a7ccf 23.06%,
+        #a06bae 40.32%,
+        #b8568d 57.57%,
+        #ca3d6d 74.83%,
+        #d70a4f 92.08%
+    );
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    transition: background 0.3s, transform 0.1s;
+}
+
+.button:hover {
+    background: linear-gradient(
+        93.76deg,
+        #0f6bba 5.81%,
+        #5a5cbf 23.06%,
+        #80559e 40.32%,
+        #98507d 57.57%,
+        #ba3d5d 74.83%,
+        #c70a3f 92.08%
+    );
+}
+
+.button:active {
+    background: linear-gradient(
+        93.76deg,
+        #0a4f82 5.81%,
+        #404c8f 23.06%,
+        #5b407e 40.32%,
+        #70356d 57.57%,
+        #893d5d 74.83%,
+        #970a3f 92.08%
+    );
+    transform: scale(0.95);
+}

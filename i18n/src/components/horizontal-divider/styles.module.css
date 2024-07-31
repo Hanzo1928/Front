@@ -1,0 +1,4 @@
+.horizontal-divider {
+    border: none;
+    border-block-start: 2px dashed #555555;
+}

@@ -1,0 +1,44 @@
+.ticket {
+    padding: 30px;
+    background-color: #201f20;
+    inline-size: 440px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.ticket_vip {
+    background-image: url("/images/ticket-vip.jpg");
+}
+
+.ticket:hover {
+    background-color: #333;
+    transform: scale(1.02);
+}
+
+.ticket:active {
+    background-color: #555;
+    transform: scale(0.98);
+}
+
+.ticket__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ticket__title {
+    flex: 1;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.ticket__input {
+    inline-size: 45px;
+    block-size: 45px;
+    cursor: pointer;
+}
+
+.ticket__description {
+    margin-block-start: 30px;
+}

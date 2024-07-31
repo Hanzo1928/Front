@@ -1,0 +1,67 @@
+.form {
+    margin: auto;
+    margin-block-start: 230px;
+    max-inline-size: 930px;
+}
+
+.form__label {
+    margin-block-end: 10px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 37px;
+}
+
+.form__tickets {
+    margin-block-start: 30px;
+}
+
+.form__tickets-wrapper {
+    display: flex;
+    gap: 50px;
+}
+
+.form__inputs {
+    margin-block-start: 70px;
+    max-inline-size: 470px;
+}
+
+.form__inputs-label {
+    display: block;
+    margin-block-start: 30px;
+}
+
+.form__input {
+    inline-size: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.form__input_phone {
+    max-inline-size: 250px;
+}
+
+.form__tickets-count {
+    margin-inline-end: 25px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.form__tickets-count-input {
+    margin-inline-end: 10px;
+    inline-size: 24px;
+    block-size: 24px;
+}
+
+.form__submit {
+    margin-block-start: 70px;
+    inline-size: 350px;
+}
+
+.form__submit-description {
+    margin-block-start: 25px;
+    font-size: 14px;
+    line-height: 18px;
+}

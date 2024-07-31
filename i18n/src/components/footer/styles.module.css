@@ -1,0 +1,33 @@
+.footer {
+    background: no-repeat center url("/images/footer-background.jpg");
+}
+
+.footer-content {
+    margin: auto;
+    padding: 35px var(--padding-inline);
+    max-inline-size: var(--max-width);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content__text {
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.footer-content__copyright {
+    margin-block-start: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.footer-content__social {
+    text-align: center;
+}
+
+.footer-content__social-links {
+    margin-block-start: 30px;
+    display: flex;
+    gap: 15px;
+}

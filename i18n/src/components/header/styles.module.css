@@ -1,0 +1,27 @@
+.header {
+    margin: auto;
+    padding: 20px var(--padding-inline);
+    max-inline-size: var(--max-width);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation__link {
+    margin-inline-start: 45px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.navigation__link_active {
+    color: var(--accent-color);
+}
+
+.navigation__link:hover {
+    opacity: 0.8;
+}
+
+.navigation__link:active {
+    opacity: 1;
+}

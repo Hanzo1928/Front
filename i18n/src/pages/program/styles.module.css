@@ -1,0 +1,40 @@
+.program {
+    inline-size: 900px;
+    margin: auto;
+    margin-block-start: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 80px;
+}
+
+.program__text {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.program__text_registration {
+    grid-column: 3;
+}
+
+.program__divider {
+    grid-column: 1 / 4;
+}
+
+.program__card {
+    inline-size: 170px;
+}
+
+.program__card-avatar {
+    border-radius: 280px;
+}
+
+.program__card-text {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.program__description {
+    margin-block-start: 15px;
+    font-size: 16px;
+    line-height: 19px;
+}

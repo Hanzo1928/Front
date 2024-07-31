@@ -1,0 +1,22 @@
+.header {
+    margin-block-start: 10px;
+}
+
+.header__title {
+    font-weight: 400;
+    font-size: 105px;
+    line-height: 108px;
+}
+
+.header__subtitle {
+    margin-block-start: 20px;
+}
+
+.header__subtitle-text {
+    display: inline;
+    margin-inline-start: 30px;
+    color: var(--accent-color);
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 88px;
+}
